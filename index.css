@@ -1,0 +1,86 @@
+body{
+    background-color: darkslategray;
+    
+}
+
+h1{
+color :white;
+font-size: 7em;
+
+}
+
+.form,
+.greetings {
+    display: none;
+    text-align: center;
+    margin: 40px;
+}
+
+.showing{
+    display: block;  
+    color: white;
+    font-size: 2em; 
+} 
+
+@keyframes fadIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+input {
+    width:250px;
+    height:40px;
+    font-size:20px;
+    background-color:  rgba(255,255,255,0);
+    color: white;
+  }
+
+.js-toDoForm,
+.js-clock{
+    text-align: center;
+}
+
+.css-li{
+    margin-bottom: 5px;
+}
+.css-span{
+    margin-right : 7px;
+}
+
+.js-toDoList{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: bisque;
+}
+
+.weather{
+    text-align: right;
+}
+.js-weather{    
+    color: aquamarine;
+}
+
+.css-btn{
+    background-color: rgba(255,255,255,0);
+    color: bisque;
+}
+.rename-btn{
+    background-color: rgba(255,255,255,0);
+    color: white;
+    margin: 20px;
+}
+
+.bgImage{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
